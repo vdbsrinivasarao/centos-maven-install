@@ -23,8 +23,8 @@ source /etc/profile.d/maven.sh
 #sudo -u "$SUDO_USER" env "PATH=/usr/local/maven/bin:${PATH}"
 
 
-echo 'The maven version: ' `mvn -version` ' has been installed.'
-echo -e '\n\n!! Note you must relogin to get mvn in your path !!'
+echo 'The maven version: ' `maven -version` ' has been installed.'
+echo -e '\n\n!! Note you must relogin to get maven in your path !!'
 echo 'Removing the temporary directory...'
 rm -r "$TEMPORARY_DIRECTORY"
 echo 'Your Maven Installation is Complete.'
